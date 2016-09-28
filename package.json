@@ -1,0 +1,35 @@
+{
+  "name": "lucky-image",
+  "version": "1.0.0",
+  "description": "lucky-image",
+  "main": "lucky-image.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:rephus/lucky-image.git"
+  },
+  "dependencies": {
+    "body-parser": "1.0.2",
+    "express": "4.1.1",
+    "winston": "^2.1.1",
+    "superagent": "^1.8.3"
+  },
+  "author": "Javier Rengel <javier@coconauts.net> (http://coconauts.net)",
+  "licenses": [
+    {
+      "type": "GPLv3",
+      "url": "http://www.gnu.org/licenses/gpl-3.0.en.html"
+    }
+  ],
+  "engine": {
+    "node": ">=0.10.25"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.2",
+    "chai": "~1.8.1",
+    "chai-http": "^1.0.0",
+    "supertest": "^1.1.0"
+  }
+}
